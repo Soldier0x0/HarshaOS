@@ -1,0 +1,4 @@
+# Enable integrations by referencing their module paths
+enabled:
+  - backend.integrations.apivault_plugin
+  - backend.integrations.dev21_plugin

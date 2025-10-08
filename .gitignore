@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+.venv/
+cache/*
+!cache/.gitkeep
+
+# Node
+ui/node_modules/
+ui/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env

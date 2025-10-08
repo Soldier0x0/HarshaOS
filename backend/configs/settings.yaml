@@ -1,0 +1,19 @@
+# Sample configuration for HarshaOS backend
+app:
+  name: "HarshaOS Local API"
+  environment: "development"
+  secret_key: "change-me"
+
+mail:
+  imap_host: "imap.local"
+  imap_user: "user@example.com"
+  imap_password: "encrypted-placeholder"
+  smtp_host: "smtp.local"
+  smtp_port: 587
+
+ollama:
+  binary_path: "C:/ollama/ollama.exe"
+  models:
+    - mistral
+    - phi-3
+    - llama3
